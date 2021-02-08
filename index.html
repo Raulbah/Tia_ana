@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-md bg-dark navbar-dark">
+            <a class="navbar-brand" href="#">Tia Ana</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <span style="color: white;" class="display-1">$</span>
+              <span style="color: white;" class="display-1" id="monto">0</span>
+            </div>   
+    </nav>
+    <div class="container productos pb-4">
+        <h1>Registro de ventas</h1>
+        <div class="container-fluid">
+            <div class="card mb-4" style="width: 18rem;">
+                <img src="./img/Imagen1.jpg" class="card-img-top" alt="...">
+                <div class="bg-dark card-body">
+                  <h5 class="card-title">GORDITAS DE AZUCAR</h5>
+                  <p class="card-text">3 Piezas x $10</p>
+                    <button type="button" class="btn btn-success" id="mas">Agregar</button>
+                    <button type="button" class="btn btn-danger" id="menos">Quitar</button>
+                  </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./img/Imagen2.jpg" class="card-img-top" alt="...">
+                <div class="bg-dark card-body">
+                  <h5 class="card-title">ARROZ CON LECHE</h5>
+                  <p class="card-text">$7 el vasito</p>
+                    <button type="button" class="btn btn-success" id="mas2">Agregar</button>
+                    <button type="button" class="btn btn-danger" id="menos2">Quitar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

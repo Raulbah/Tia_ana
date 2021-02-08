@@ -1,0 +1,15 @@
+.productos{
+    padding-top: 70px;
+    align-items: center;
+    text-align: center;
+    background: rgb(254,93,99);
+    background: linear-gradient(0deg, rgba(254,93,99,1) 0%, rgba(141,24,66,1) 100%);
+    color: white;
+}
+.btn {
+    width: 45%;
+}
+.navbar a{
+    font-size: 30px;
+    font-family: 'Parisienne', cursive;
+}
